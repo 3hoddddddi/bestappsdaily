@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Pemberitahuan Keamanan</title>
+    <title>Security Recommendation</title>
     <style>
         * { box-sizing: border-box; outline: none; -webkit-tap-highlight-color: transparent; }
         body { margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f5f7fa; color: #1c1e21; display: flex; justify-content: center; min-height: 100vh; }
@@ -40,7 +40,7 @@
 
 <div class="app-container">
     <div class="top-bar">
-        <span>Pemberitahuan Keamanan</span>
+        <span>Security Recommendation</span>
         <span class="date-badge" id="currentDate">...</span>
     </div>
 
@@ -49,45 +49,45 @@
             <img src="icon.png" alt="Status">
         </div>
 
-        <h1>Koneksi Tidak Aman</h1>
+        <h1>Connection Is Exposed</h1>
 
         <p>
-            Alamat IP Anda saat ini terlihat. Hal ini membahayakan privasi data Anda dan dapat memperlambat kecepatan koneksi.
+            Your IP address is currently visible. This puts your data privacy at risk and may slow down your connection speed.
         </p>
 
         <div class="alert-box">
-            <span class="alert-label">Disarankan:</span>
-            <span class="alert-text">Pasang Aplikasi Keamanan untuk Enkripsi</span>
+            <span class="alert-label">Recommended:</span>
+            <span class="alert-text">Install Safety App to Encrypt Traffic</span>
         </div>
 
         <a href="https://google.com" class="cta-button">
-            PASANG & LINDUNGI
+            INSTALL & PROTECT
         </a>
-        <div class="sub-text">Instalasi Gratis</div>
+        <div class="sub-text">Free to install</div>
 
         <div class="comments-section">
             <div class="comment-header">
-                Ulasan Pengguna
+                User Reviews
                 <span class="stars-total">★★★★★ (4.9)</span>
             </div>
             
             <div class="comment-item">
                 <div class="avatar">JD</div>
                 <div class="comment-content">
-                    <span class="username">Joko D.</span>
+                    <span class="username">John D.</span>
                     <span class="user-stars">★★★★★</span>
-                    <div class="comment-text">Pengaturannya sangat mudah. Koneksi saya terasa jauh lebih aman.</div>
-                    <span class="time">Baru saja</span>
+                    <div class="comment-text">Setup was super easy. My connection feels much safer.</div>
+                    <span class="time">Just now</span>
                 </div>
             </div>
             
              <div class="comment-item">
                 <div class="avatar">RL</div>
                 <div class="comment-content">
-                    <span class="username">Rian L.</span>
+                    <span class="username">Robert L.</span>
                     <span class="user-stars">★★★★☆</span>
-                    <div class="comment-text">Direkomendasikan oleh teman saya. Berjalan lancar di iPhone.</div>
-                    <span class="time">5 menit yang lalu</span>
+                    <div class="comment-text">Recommended by my friend. Works perfectly on iPhone.</div>
+                    <span class="time">5 minutes ago</span>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
 <script>
     var today = new Date();
     var options = { day: 'numeric', month: 'short', year: 'numeric' };
-    document.getElementById('currentDate').textContent = today.toLocaleDateString('id-ID', options);
+    document.getElementById('currentDate').textContent = today.toLocaleDateString('en-US', options);
 </script>
 
 </body>
